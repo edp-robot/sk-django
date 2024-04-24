@@ -27,3 +27,8 @@ sources:
   - https://github.com/rca/django-baseline.git
 maintainers:
   - name: DEV Team
+
+dependencies:
+- name: postgresql
+  version: 12.5.1
+  repository: https://charts.bitnami.com/bitnami
